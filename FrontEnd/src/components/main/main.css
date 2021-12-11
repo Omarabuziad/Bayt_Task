@@ -282,6 +282,7 @@
 .pieChart_container_details_facebook{
     display: flex;
     align-items: center;
+    height: 35px;
 
     
 }
@@ -291,7 +292,7 @@
     align-items: center;
     gap: 3px;
     margin-left: 10px;
-    width: 100px;
+    width: 120px;
     
 }
 
