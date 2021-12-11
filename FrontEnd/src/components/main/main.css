@@ -1,0 +1,208 @@
+.Main{
+    border : red 1px solid;
+    width :90%;
+    margin : 0 auto;
+    padding : 10px 0 ;
+}
+
+
+.Main_Welcome{
+    background-color: white;
+    margin: 0;
+    padding :1em;
+    display: flex;
+    justify-content : space-between;
+    align-items: center;
+}
+
+
+.Main_Welcome h2{
+    margin: 0;
+    padding :0;
+}
+
+.Main_Welcome_rigth{
+    display: flex;
+    gap:15px;
+}
+
+
+
+.search_input_container{
+    margin: 0 ;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.search_input_container h4{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.search_input_span{
+    display: flex;
+    position: relative;
+    border : rgb(206, 206, 206) 1px solid;
+    margin-top: 5px;
+}
+
+
+.search_input_span_input{
+    background-color:rgba(250, 250, 252);
+    height: 23px;
+    border:0;  
+}
+
+.search_input_span_icon{
+    position: absolute;
+    right : 1%;
+    margin-top:1%;
+    font-size: 20px;
+}
+
+
+.Main_content{
+    border : 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+
+}
+
+
+.Main_content_left{
+    
+    width: 59%;
+}
+
+
+.Main_content_left_salesRate{
+    display: grid;
+    width: 100%;
+    height: 230px;
+    grid-template-columns: 48% 48%;
+    grid-template-rows:47% 47%;
+    grid-column-gap :4%;
+    grid-row-gap :6%;
+   
+
+}
+
+.section_box{
+   background-color:white;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.section_box_up{
+  
+}
+
+.section_box_up_title{
+    font-size: 17px;
+    font-weight: 700;
+    margin: 3% 5% 1% 5%;
+}
+
+.section_box_up_title strong{
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 2px;
+}
+
+.section_box_up_hr{
+    margin: 1% auto;
+    width: 90%;
+    border: 1px solid rgba(129, 136, 136, 0.466);
+}
+
+
+.section_box_up_price{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 2% 5%;
+}
+
+
+
+
+.section_box_down{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.section_box_down p{
+    font-size:13px;
+    margin: 3% 5%;
+}
+
+
+
+.lineChart_container{ 
+ width: 96%;
+ margin-top: 1em;
+ height: 375px;
+ background-color: white;
+ padding: 1em;
+}
+
+.lineChart_container_title{
+    margin: 0 0 2% 0;
+    font-size: 18px;
+}
+
+
+.lineChart_container_down{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+
+.lineChart_container_down div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lineChart_container_down div p{
+    font-size: 18px;
+    margin: 0 0 9px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Main_content_Rigth{
+    border : 1px solid rgb(219, 205, 1);
+    height: 500px;
+    width: 39%;
+}
