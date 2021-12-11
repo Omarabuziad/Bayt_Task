@@ -1,5 +1,4 @@
 .Main{
-    border : red 1px solid;
     width :90%;
     margin : 0 auto;
     padding : 10px 0 ;
@@ -65,7 +64,7 @@
 
 
 .Main_content{
-    border : 1px solid green;
+  
     display: flex;
     justify-content: space-between;
     margin-top: 1em;
@@ -202,7 +201,118 @@
 
 
 .Main_content_Rigth{
-    border : 1px solid rgb(219, 205, 1);
+   
     height: 500px;
     width: 39%;
 }
+
+
+.Main_content_Rigth_sentrix{
+    background-color:white ;
+    height: 150px;
+    padding: 15px 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Main_content_Rigth_sentrix_img{
+    width: 250px;
+}
+
+.Main_content_Rigth_sentrix_p{
+    font-size: 20px;
+    font-weight: 600;
+    margin : 8px 5px;
+}
+
+.Main_content_Rigth_sentrix_perc{
+ width : 85%;
+ height: 10px;
+ border :rgb(78, 78, 78) 1px solid;
+ border-radius: 20px 20px;
+ position: relative;
+}
+
+.Main_content_Rigth_sentrix_perc_fill{
+    width : 70%;
+ height: 100%;
+ position: absolute;
+ background-color :rgb(10, 35, 179) ;
+}
+
+
+.Main_content_Rigth_sentrix_link{
+    font-size: 15px;
+    margin: 5px 5px;
+    color: rgb(24, 209, 55);
+    font-style: underline;
+}
+
+
+
+.pieChart_container{
+    background-color:white ;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.pieChart_container_title{
+    background-color: rgba(197, 194, 194, 0.315);
+    padding: 10px 0 10px 10px;
+}
+
+.pieChart_container_title p{
+   margin: 0;
+   font-size : 15px ;
+   font-weight : 600;
+}
+
+.pie_chart{ 
+  
+    align-self: center;
+}
+
+.pieChart_container_details{
+    display: flex;
+    flex-direction: column;
+}
+
+.pieChart_container_details_facebook{
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.pieChart_container_details_facebook_title{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-left: 10px;
+    width: 100px;
+    
+}
+
+.pieChart_container_details_facebook_title_box{
+    width:20px;
+    height: 20px;
+    background-color: rgba(110, 207, 220);
+}
+
+.pieChart_container_details_facebook_perc{
+ 
+ height: 10px;
+ border :rgb(78, 78, 78) 1px solid;
+ background-color :rgba(110, 207, 220);
+ border-radius: 20px 20px;
+ margin-left: 20px;
+ margin-right: 20px;
+ justify-self: flex-start;
+ 
+}
+
+
+
+
